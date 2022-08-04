@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Gorditas' ;
+    src: url('fonts/Gorditas-Regular.ttf');
+}
+@font-face {
+  font-family: 'LoveYa' ;
+  src: url('fonts/LoveYaLikeASisterSolid.ttf');
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/assets/bg.png");
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu {
+  height: 500px;
+  width: 280px;
+  background-repeat: no-repeat;
+  background-image: url("/assets/menu-img.png");
+  background-size:contain;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  padding-left: 70px;
+}
+.menu a{
+    margin-bottom: 30px;
+    font-family: "Gorditas";
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.resize{
+    width: 180px;
+}
+.second-resize{
+    width: 130px;
+}
+.window {
+  width: 500px;
+  height: 480px;
+  background-color: white;
+  border-radius: 20px;
+  font-family: "LoveYa";
+}
