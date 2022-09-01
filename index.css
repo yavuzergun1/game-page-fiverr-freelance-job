@@ -12,15 +12,16 @@
 
 body {
   background-image: url("/assets/bg.png");
+  padding-top: 30px;
 }
 .main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .menu {
-  height: 500px;
-  width: 280px;
+  height: 550px;
+  width: 350px;
   background-repeat: no-repeat;
   background-image: url("/assets/menu-img.png");
   background-size: contain;
@@ -38,7 +39,7 @@ body {
 }
 .window {
   width: 450px;
-  height: 480px;
+  height: 520px;
   background-color: white;
   border-radius: 20px;
   padding-top: 20px;
@@ -51,7 +52,6 @@ body {
 .left-container {
   display: flex;
   width: 50%;
-  /* background-color: red; */
 }
 .left-container-left {
   display: flex;
@@ -74,8 +74,6 @@ body {
 .right-container {
   display: flex;
   width: 50%;
-  /* background-color: blue; */
-}
 .right-container-right {
   display: flex;
   flex-direction: column;
